@@ -3,6 +3,27 @@ Această aplicație își dorește să rezolve problema capcanei mentale care ap
 
 Astfel, putem oferi studentului un context mai clar în ceea ce privește pregătirea sa efectivă, ajutându-l astfel să pună întrebări relevante pentru acesta cât și profesorului o privire de ansamblu mai precisă despre lacunele studenților.
 
+# Membrii Echipei
+| Name | GitHub |
+|---|---|
+| Iacobescu Ionuț-Robert | [yakko314](https://github.com/yakko314) |
+| Iloc Lucian-Vasile | [PerfectlyGeneric](https://github.com/PerfectlyGeneric) |
+| Mitoiu Bogdan-Petru | [bogdanmitoiu05](https://github.com/bogdanmitoiu05) |
+
+# Navigare
+* **[Architecture](docs/architecture.md)**
+* **[Data Model](docs/data-model.md)**
+* **[Implementation Plan](docs/implementation-plan.md)**
+* **[Requirements](docs/requirements.md)**
+* **[Use Cases](docs/use-cases.md)**
+* **[Wireframes](docs/wireframes/)**
+
+# Tehnologii
+* Frontend:  Angular
+* Backend: Spring Boot
+* Database: PostgreSQL
+
+
 ## Obiective
 * Crearea unei platforme web segregată în funcție de rolul utilizatorului
 * Posibilitatea elevilor de a exersa interactiv și de a-și evalua cunoștințele prin intermediul quizurilor.
@@ -32,14 +53,4 @@ Studentul poate vedea pe ecranul principal o vedere de ansamblu a performanțelo
 
 **Descriere:**
 Profesorul adaugă, editează sau șterge întrebări din banca de exerciții, le clasifică pe categorii/niveluri de dificultate și atașează explicații pentru feedback. Salvările sunt stocate în baza de date și devin disponibile pentru generarea automată sau manuală de noi quiz-uri.
-Studentul poate alege să completeze quiz-urile oferite. Pe măsură ce studentul rezolvă întrebările, în cazul în care răspunsul dat la o întrebare nu este corect sau complet, o fereastră de feedback va apărea care să-l ghideze spre rezultatul corect. La final studentul află scorul pe acel quiz. 
-
-# Tehnologii
-* Frontend:  Angular
-* Backend: Spring Boot
-* Database: PostgreSQL
-
-# Membrii Echipei
-* Iacobescu Ionuț-Robert - leader, front-end
-* Iloc Lucian-Vasile - developer, back-end
-* Mitoiu Bogdan-Petru - developer, back-end
+Studentul poate alege să completeze quiz-urile oferite. Pe măsură ce studentul rezolvă întrebările, în cazul în care răspunsul dat la o întrebare nu este corect sau complet, o fereastră de feedback va apărea care să-l ghideze spre rezultatul corect. La final studentul află scorul pe acel quiz.

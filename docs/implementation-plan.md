@@ -57,6 +57,52 @@ Se propune utilizarea convenției **Conventional Commits**, pentru păstrarea un
 
 ---
 
+## Planul de Implementare și Prioritizarea Activităților
+
+Pentru versiunea beta, Etapa 3, **EduQuiz** își propune:
+
+### Must Have – Funcționalități esențiale
+
+- **Setup-ul mediului de dezvoltare:** Configurarea framework-urilor, Docker, a mediului de lucru și rezolvarea problemelor inițiale de conectivitate.
+- **Database-First Development:** Proiectarea și integrarea bazei de date în aplicație, inclusiv maparea entităților și a relațiilor dintre acestea.
+- **Arhitectura Client-Server:** Implementarea unui client Angular și a unui server Spring Boot funcționale, cu un flux de comunicare persistent în baza de date.
+- **Business Logic – Quizz-uri:** Implementarea operațiilor CRUD pentru crearea și gestionarea quizz-urilor și a seturilor de întrebări, precum și funcționalitatea de parcurgere și rezolvare a acestora.
+- **Interfața utilizator:** Implementarea interfețelor principale: Home, Curs și Quizz.
+
+### Should Have – Funcționalități importante
+
+- **Business Logic – Cursuri:** Implementarea operațiilor CRUD pentru crearea și gestionarea cursurilor.
+- **Paginare și căutare:** Implementarea funcționalităților de paginare, căutare și statistici.
+- **Feedback și explicații:** Afișarea rezultatelor, feedback-ului și explicațiilor după rezolvarea quizz-urilor.
+
+### Could Have – Funcționalități opționale
+
+- **Sistem de roluri:** Introducerea rolurilor de Profesor, Elev și Administrator.
+- **Integrare LLM:** Implementarea unei integrări incipiente cu un Large Language Model.
+- **Autentificare și autorizare:** Implementarea unui mecanism de autentificare și gestionare a accesului utilizatorilor.
+
+---
+
+### Săptămâna 1 – Setup și infrastructură
+
+- Setup Spring Boot, Angular și Docker
+- Configurare bază de date și structura inițială a aplicației
+- Proiectarea entităților, a relațiilor și configurarea conexiunii ORM
+- Crearea componentelor principale Angular și configurarea comunicării cu backend-ul
+
+### Săptămâna 2 – Core Business Logic
+
+- API-uri, DTO, CRUD pentru Quizz-uri și Întrebări
+- UI pentru Home, Curs, Quizz și Întrebări
+- Implementarea fluxului de comunicare Server + Client și persistarea informației
+
+### Săptămâna 3 – Integrare și funcționalități suplimentare
+
+- API-uri, DTO, CRUD pentru Cursuri
+- Implementare căutare și paginare
+- Feedback și explicații pentru rezultate
+- Testare, stabilitate și corectarea problemelor
+
 ## Repartizarea Responsabilităților
 
 ### Iacob – Frontend și interfață grafică
